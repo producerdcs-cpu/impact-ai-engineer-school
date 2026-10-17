@@ -1,42 +1,55 @@
 # Impact AI Engineer School · Trilha MetaRAG
 
-Landing page completa da **Impact AI Engineer School** — AI Software Course com 13 módulos, 13 certificados e diploma global em Engenharia de IA GenAI & Sistemas Autônomos Controlados.
+Landing page completa — **13 módulos**, **13 certificados** e diploma global em Engenharia de IA GenAI & Sistemas Autônomos Controlados.
 
 **Brand:** Dcs Producer ® Creative Studio Corporation  
 **Coordenador:** Dinoel Soares (Dcs Producer®)  
-**Portfólio Executivo:** [Core Hub AEGIS](https://core-hub-aegis.vercel.app/)
+**Portfólio:** [Core Hub AEGIS](https://core-hub-aegis.vercel.app/)
 
-## O que está incluso
+## Estrutura do repositório
 
-- Hero com mapa interativo de 13 nós (módulos)
-- Grade curricular completa por blocos (R1–R6)
-- Portfólio dos 13 projetos reais
-- Capstone (Módulo 11)
-- Depoimentos
-- Precificação (3 stacks + pacote completo com 15% de economia)
-- Seção “Faça parte do Ciclo”
-- Grade detalhada com acordeão (competências, meta prática, certificação, carga horária)
-- Mentorias (Agente Mentor IA + especialistas + coordenação)
-- Perfil do Coordenador + integração Nexus RAG AI
-- Auto-respostas WhatsApp (8 atalhos funcionais)
-- Botão flutuante WhatsApp + todos os CTAs apontando para `(67) 98121-0273`
+```
+index.html          → shell (header, footer, loader)
+styles.css          → estilos Crystalline Logic
+modules-data.js     → dados dos 13 módulos
+app.js              → renderização + interações
+partials/
+  part-a.html       → Hero, Curriculum, Portfolio, Capstone
+  part-b1.html      → Testimonials, Pricing, Ciclo, Grade
+  part-b2.html      → Mentorias, Coordenador, WhatsApp
+```
 
-## Tecnologias
+O `index.html` carrega as partials via `fetch` e depois inicializa o `app.js`.
 
-- HTML5 semântico
-- Tailwind CSS (CDN)
-- JavaScript vanilla (mapa de nós, acordeão, menu mobile, nav ativa)
-- Design “Crystalline Logic”: branco, azul-cobalto, tipografia Inter + JetBrains Mono
+## Funcionalidades
+
+- Mapa interativo de 13 nós
+- Grade por blocos R1–R6
+- 13 projetos reais
+- Preços (3 stacks + pacote R$ 8.200)
+- Depoimentos, Ciclo, Mentorias
+- Perfil do Coordenador + Nexus RAG AI
+- 8+ CTAs WhatsApp → **(67) 98121-0273**
+- Botão flutuante WhatsApp
 
 ## Como visualizar
 
-Abra `index.html` no navegador ou sirva com qualquer static server:
+**Importante:** precisa de servidor HTTP (fetch das partials não funciona em `file://`).
 
 ```bash
 npx serve .
 # ou
 python -m http.server 8080
 ```
+
+## GitHub Pages
+
+1. Settings → Pages  
+2. Source: **Deploy from a branch**  
+3. Branch: **main** · folder: **/ (root)**  
+4. Save  
+
+URL: `https://producerdcs-cpu.github.io/impact-ai-engineer-school/`
 
 ## Contato
 
