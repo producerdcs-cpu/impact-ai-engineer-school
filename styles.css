@@ -1,0 +1,35 @@
+:root { --wa: 5567981210273; }
+    html { scroll-behavior: smooth; }
+    body { background: #f8fafc; color: #0f172a; }
+    .grid-bg {
+      background-image:
+        linear-gradient(rgba(26, 86, 219, 0.04) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(26, 86, 219, 0.04) 1px, transparent 1px);
+      background-size: 48px 48px;
+    }
+    .crystal-card {
+      background: rgba(255,255,255,0.85);
+      backdrop-filter: blur(12px);
+      border: 1px solid rgba(51,120,255,0.12);
+      box-shadow: 0 4px 24px -4px rgba(10,22,40,0.06);
+    }
+    .module-node {
+      transition: all 0.2s ease;
+    }
+    .module-node:hover, .module-node.active {
+      transform: scale(1.08);
+      box-shadow: 0 0 0 3px rgba(51,120,255,0.35);
+    }
+    .progress-rail {
+      background: linear-gradient(90deg, #3378ff 0%, #59a0ff 100%);
+    }
+    .wa-btn {
+      transition: transform 0.15s ease, box-shadow 0.15s ease;
+    }
+    .wa-btn:hover { transform: translateY(-1px); box-shadow: 0 8px 20px -4px rgba(37,211,102,0.4); }
+    .nav-link.active { color: #1b55f5; font-weight: 600; }
+    @keyframes pulse-dot {
+      0%, 100% { opacity: 1; }
+      50% { opacity: 0.4; }
+    }
+    .pulse-dot { animation: pulse-dot 2s ease-in-out infinite; }
