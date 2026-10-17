@@ -1,3 +1,4 @@
+function __appInit() {
 // ===== RENDER MODULES =====
     function renderModuleCard(m) {
       return `
@@ -23,7 +24,6 @@
       el.innerHTML = modules.filter(m => m.block === block).map(renderModuleCard).join('');
     });
 
-    // ===== HERO NODES =====
     const heroNodes = document.getElementById('hero-nodes');
     if (heroNodes) {
       heroNodes.innerHTML = modules.map(m => `
@@ -47,7 +47,6 @@
       });
     }
 
-    // ===== PORTFOLIO =====
     const portfolioGrid = document.getElementById('portfolio-grid');
     if (portfolioGrid) {
       portfolioGrid.innerHTML = modules.map(m => `
@@ -68,7 +67,6 @@
         </article>`).join('');
     }
 
-    // ===== GRADE ACCORDION =====
     const accordion = document.getElementById('grade-accordion');
     if (accordion) {
       accordion.innerHTML = modules.map(m => `
@@ -117,7 +115,6 @@
       });
     }
 
-    // ===== MOBILE MENU =====
     document.getElementById('menu-btn')?.addEventListener('click', () => {
       document.getElementById('mobile-menu').classList.toggle('hidden');
     });
@@ -125,7 +122,6 @@
       a.addEventListener('click', () => document.getElementById('mobile-menu').classList.add('hidden'));
     });
 
-    // ===== ACTIVE NAV =====
     const sections = ['hero','curriculum','portfolio','capstone','pricing','cycle','mentoring','coordinator','whatsapp'];
     const observer = new IntersectionObserver(entries => {
       entries.forEach(entry => {
@@ -140,3 +136,9 @@
       const el = document.getElementById(id);
       if (el) observer.observe(el);
     });
+}
+if (document.getElementById('curriculum') || document.querySelector('[data-block]')) {
+  __appInit();
+} else {
+  window.__appInit = __appInit;
+}

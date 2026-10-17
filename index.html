@@ -112,11 +112,12 @@
     (async function () {
       const main = document.getElementById('main-root');
       try {
-        const [a, b] = await Promise.all([
+        const parts = await Promise.all([
           fetch('partials/part-a.html').then(r => r.text()),
-          fetch('partials/part-b.html').then(r => r.text())
+          fetch('partials/part-b1.html').then(r => r.text()),
+          fetch('partials/part-b2.html').then(r => r.text())
         ]);
-        main.innerHTML = a + b;
+        main.innerHTML = parts.join('');
         if (typeof __appInit === 'function') __appInit();
         else if (window.__appInit) window.__appInit();
       } catch (e) {
