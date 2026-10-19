@@ -1,6 +1,8 @@
 # Post LinkedIn — pronto para publicar
 
-**Imagem:** `case-publico/assets/cristal-rede-agentes.jpg` (após upload dos assets)
+**Imagem (obrigatória):** `docs/assets/image (2).jpg` = **cristal-rede-agentes**  
+(URL direta: https://github.com/producerdcs-cpu/impact-ai-engineer-school/blob/main/case-publico/docs/assets/image%20(2).jpg )
+
 **Case:** https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
 
 ---
@@ -29,12 +31,11 @@ Contexto: MetaRAG · Impact AI Engineer School · coordenação acadêmica.
 
 ---
 
-## Versão curta
+## Mapa das 4 imagens
 
-Fail-closed > fail-open quando o que você recupera pode ser veneno.
-
-Case: retrieval untrusted + gateway AEGIS + Nexus.
-
-ADR + diagrama + policy → https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
-
-#RAG #AISecurity #DcsProducer
+| image | Nome | Uso |
+|-------|------|-----|
+| (1) | cristal-estrela | Hero |
+| (2) | cristal-rede-agentes | **Este post** |
+| (3) | cristal-piramide-stack | Stack |
+| (4) | cristal-tetraedro | Core |
