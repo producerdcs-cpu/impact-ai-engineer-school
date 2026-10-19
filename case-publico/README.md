@@ -14,15 +14,18 @@
 - [ADR-001 — Retrieval untrusted e fail-closed](docs/ADR-001-fail-closed.md)
 - [Diagrama Mermaid](docs/diagram.mmd)
 - [Policy snippet (pseudocódigo)](docs/policy-snippet.md)
+- [Post LinkedIn](POST-LINKEDIN.md)
 
 ## Identidade visual (Crystalline Logic)
 
+Assets em `docs/assets/` (upload mobile):
+
 | Arquivo | Uso sugerido |
 |---------|----------------|
-| `assets/cristal-estrela.jpg` | Hero / arquitetura multi-camada |
-| `assets/cristal-piramide-stack.jpg` | Stack / fundações → apex |
-| `assets/cristal-rede-agentes.jpg` | Multi-agente + rede |
-| `assets/cristal-tetraedro.jpg` | Core / unidade de confiança |
+| [image (1).jpg](docs/assets/image%20(1).jpg) | Visual 1 |
+| [image (2).jpg](docs/assets/image%20(2).jpg) | Visual 2 — bom para LinkedIn |
+| [image (3).jpg](docs/assets/image%20(3).jpg) | Visual 3 |
+| [image (4).jpg](docs/assets/image%20(4).jpg) | Visual 4 |
 
 > Este repositório **não** contém o motor AEGIS, secrets nem evidências brutas.
 
