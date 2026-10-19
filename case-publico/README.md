@@ -18,14 +18,18 @@
 
 ## Identidade visual (Crystalline Logic)
 
-Assets em `docs/assets/` (upload mobile):
+Assets em `docs/assets/` (identificados visualmente):
 
-| Arquivo | Uso sugerido |
-|---------|----------------|
-| [image (1).jpg](docs/assets/image%20(1).jpg) | Visual 1 |
-| [image (2).jpg](docs/assets/image%20(2).jpg) | Visual 2 — bom para LinkedIn |
-| [image (3).jpg](docs/assets/image%20(3).jpg) | Visual 3 |
-| [image (4).jpg](docs/assets/image%20(4).jpg) | Visual 4 |
+| Arquivo atual | Nome canônico | Uso |
+|---------------|---------------|-----|
+| [image (1).jpg](docs/assets/image%20(1).jpg) | **cristal-estrela** | Hero / arquitetura multi-camada |
+| [image (2).jpg](docs/assets/image%20(2).jpg) | **cristal-rede-agentes** | **LinkedIn** · multi-agente + rede |
+| [image (3).jpg](docs/assets/image%20(3).jpg) | **cristal-piramide-stack** | Stack / fundações → apex |
+| [image (4).jpg](docs/assets/image%20(4).jpg) | **cristal-tetraedro** | Core / unidade de confiança |
+
+**LinkedIn:** use **image (2).jpg** (rede de agentes).
+
+> O arquivo vazio `cristal-rede-agentes.jpg` foi removido. Renomear os `image (N).jpg` no GitHub é opcional (estética).
 
 > Este repositório **não** contém o motor AEGIS, secrets nem evidências brutas.
 
