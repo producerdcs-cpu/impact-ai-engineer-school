@@ -1,0 +1,32 @@
+flowchart LR
+  subgraph User
+    U[Usuário / Aluno]
+  end
+  subgraph Gateway["Gateway AEGIS"]
+    P[Policy Engine]
+    B[Budget + Circuit Breaker]
+    H[Human-in-the-loop gate]
+  end
+  subgraph RAG["Camada RAG untrusted"]
+    Q[Query]
+    R[Retriever]
+    C[Chunks em quarentena]
+    V[Validador / filtros]
+  end
+  subgraph Agents["Agentes"]
+    A[Plan-Act-Reflect]
+    T[Tools MCP sandbox]
+  end
+  subgraph Nexus["Nexus / Vagas"]
+    M[Match skills × vagas]
+  end
+  U --> P
+  P --> B
+  B --> Q
+  Q --> R --> C --> V
+  V -->|ok| A
+  V -->|falha| H
+  H -->|nega / pede humano| U
+  A --> T
+  T -->|least privilege| M
+  B -.->|estouro budget| H
