@@ -1,8 +1,11 @@
-# Post LinkedIn — rascunho
+# Post LinkedIn — pronto para publicar
 
-**Imagem:** assets/cristal-rede-agentes.jpg (ou cristal-estrela.jpg)
+**Imagem:** `case-publico/assets/cristal-rede-agentes.jpg` (após upload dos assets)
+**Case:** https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
 
 ---
+
+## Texto (copiar)
 
 Arquitetura AI-first não é só “chamar um LLM”.
 
@@ -12,7 +15,7 @@ Se a policy, o budget ou a validação do chunk falhar, a ação **não** segue.
 
 Case sanitizado (ADR + diagrama + política):
 
-🔗 [colar URL após push]
+🔗 https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
 
 Princípios:
 • status só vale com artefato
@@ -23,3 +26,15 @@ Princípios:
 Contexto: MetaRAG · Impact AI Engineer School · coordenação acadêmica.
 
 #AIArchitecture #RAG #AgenticAI #AISecurity #MetaRAG #DcsProducer
+
+---
+
+## Versão curta
+
+Fail-closed > fail-open quando o que você recupera pode ser veneno.
+
+Case: retrieval untrusted + gateway AEGIS + Nexus.
+
+ADR + diagrama + policy → https://github.com/producerdcs-cpu/impact-ai-engineer-school/tree/main/case-publico
+
+#RAG #AISecurity #DcsProducer
