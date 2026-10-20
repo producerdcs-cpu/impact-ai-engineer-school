@@ -6,6 +6,14 @@ Landing page completa — **13 módulos**, **13 certificados** e diploma global 
 **Coordenador:** Dinoel Soares (Dcs Producer®)  
 **Portfólio:** [Core Hub AEGIS](https://core-hub-aegis.vercel.app/)
 
+## Evidence Pack (público)
+
+Artefatos sanitizados para auditoria externa (ADR fail-closed, diagrama, post LinkedIn):
+
+→ **[case-publico/EVIDENCE-PACK.md](case-publico/EVIDENCE-PACK.md)**  
+→ Case: [case-publico/](case-publico/)  
+→ LinkedIn: https://lnkd.in/dzzimXRB
+
 ## Estrutura do repositório
 
 ```
@@ -17,6 +25,7 @@ partials/
   part-a.html       → Hero, Curriculum, Portfolio, Capstone
   part-b1.html      → Testimonials, Pricing, Ciclo, Grade
   part-b2.html      → Mentorias, Coordenador, WhatsApp
+case-publico/       → ADR + Evidence Pack (público)
 ```
 
 O `index.html` carrega as partials via `fetch` e depois inicializa o `app.js`.
