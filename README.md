@@ -12,7 +12,7 @@ Artefatos sanitizados para auditoria externa (ADR fail-closed, diagrama, post Li
 
 → **[case-publico/EVIDENCE-PACK.md](case-publico/EVIDENCE-PACK.md)**  
 → Case: [case-publico/](case-publico/)  
-→ LinkedIn: https://lnkd.in/dzzimXRB
+→ LinkedIn: [https://lnkd.in/dzzimXRB](https://www.linkedin.com/mwlite/profile/in/dcs-producer-78b075415/recent-activity)
 
 ## Estrutura do repositório
 
