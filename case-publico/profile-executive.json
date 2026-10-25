@@ -1,0 +1,67 @@
+{
+  "profile_id": "PE-DINOEL-SOARES-001",
+  "brand": "OPENTOWORK OS © Dcs Producer® Executive Core",
+  "version": "0.5.1",
+  "last_updated": "2026-10-25T18:51:00Z",
+  "document_status": "vivo",
+  "identity": {
+    "full_name": "Dinoel Soares",
+    "brand_name": "Dcs Producer®",
+    "role_current": "Coordenador da Academia",
+    "role_target": "Arquiteto de Sistemas AI-first / Coordenador da Academia",
+    "school": "IMPACT / AI Engineer School · School The Best Engineer Software",
+    "location": "Brasil · Remoto"
+  },
+  "ceo_core": {
+    "current_level": "Advanced (certificado interno)",
+    "overall_performance": 100,
+    "evidence_quality": 100,
+    "confidence": 92,
+    "trajectory": "POSITIVE",
+    "domains": [
+      "Software Architecture AI-first",
+      "MetaRAG & Agentic Systems",
+      "Cibersegurança / AEGIS-DUC",
+      "Governança Pedagógica",
+      "Safety & OT/ICS / IoT",
+      "Executive Decision"
+    ]
+  },
+  "nexus_radar": {
+    "match_score": 70,
+    "top_match_role": "Gerente de Projetos de Engenharia",
+    "company_target": "Órbita Labs",
+    "active_goals": 4,
+    "nr_alerts": 4,
+    "next_gap_fix": "Broker TLS local publicando telemetria NR-15 e dashboard de alerta",
+    "security_profile": {
+      "mTLS": true,
+      "TLS_version": "1.3",
+      "encryption": "AES-256",
+      "prompt_sanitization": true
+    }
+  },
+  "certification_dossier": {
+    "title": "Engenharia de IA GenAI — Sistemas Autônomos Controlados",
+    "emission_date": "2026-09-26",
+    "hub_url": "https://dcsproducer-hub-pqjq.vercel.app",
+    "track": "MetaRAG · 13 eixos (12 módulos + certificação)",
+    "rubric_score": 100,
+    "readiness_threshold": 80,
+    "modules": [
+      {"id": 1, "name": "Fundamentos de IA e LLMs", "status": "CONCLUIDO", "evidences": "evidencias/mod01/"},
+      {"id": 2, "name": "APIs de IA Generativa e Prompt Engineering", "status": "CONCLUIDO", "evidences": "evidencias/mod02/"},
+      {"id": 3, "name": "MCP – Model Context Protocol", "status": "CONCLUIDO", "evidences": "artifacts/mcp-server/, evidencias/mod03/"},
+      {"id": 4, "name": "Criação de Agentes Autônomos", "status": "CONCLUIDO", "evidences": "evidencias/mod04/"},
+      {"id": 5, "name": "Ferramentas de IA para UX & UI", "status": "CONCLUIDO", "evidences": "evidencias/mod05/"},
+      {"id": 6, "name": "Ferramentas de IA para DevOps", "status": "CONCLUIDO", "evidences": "evidencias/mod06/"},
+      {"id": 7, "name": "Ferramentas de IA para Gestão de Projetos", "status": "CONCLUIDO", "evidences": "evidencias/mod07/"},
+      {"id": 8, "name": "Arquitetura de Sistemas com IA", "status": "CONCLUIDO", "evidences": "evidencias/mod08/"},
+      {"id": 9, "name": "Processamento de Dados e Fine Tuning", "status": "CONCLUIDO", "evidences": "evidencias/mod09/"},
+      {"id": 10, "name": "Segurança e Governança em IA", "status": "CONCLUIDO", "evidences": "evidencias/mod10/"},
+      {"id": 11, "name": "Projeto Integrador – Capstone", "status": "CONCLUIDO", "evidences": "artifacts/dcsproducer-metarag-hub/, evidencias/mod11/"},
+      {"id": 12, "name": "Carreira e entrevistas para engenheiros de IA", "status": "CONCLUIDO", "evidences": "evidencias/mod12/"},
+      {"id": 13, "name": "Certificação Engenharia de IA GenAI", "status": "CONCLUIDO", "evidences": "evidencias/mod13/"}
+    ]
+  }
+}

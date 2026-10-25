@@ -1,0 +1,59 @@
+{
+  "manifest_version": "1.0",
+  "system": "AEGIS OS",
+  "full_name": "AI Executive Governance & Integrated Safety Operating System",
+  "brand": "DcsProducer®",
+  "author": "Dinoel Soares",
+  "profile_id": "PE-DINOEL-SOARES-001",
+  "last_updated": "2026-10-25T18:51:00Z",
+  "status": "FAIL-CLOSED ACTIVE",
+  "confidence": 92,
+  "layers": {
+    "L1_kernel": {
+      "component": "aegis_orchestrator.py --init",
+      "responsibilities": ["Sanitização", "Threat Model STRIDE", "mTLS", "Fail-Closed Gate"]
+    },
+    "L4_skill_orchestrator": {
+      "component": "six-pillars-engineer",
+      "responsibilities": ["Context Compression (~40% tokens)", "Vocabulário dos 9 Pilares"]
+    },
+    "L2_metarag": {
+      "component": "MetaRAG Hub & Nexus Local (ChromaDB + Ollama)",
+      "responsibilities": ["Corpus local isolado", "Sem webhook público"]
+    },
+    "L1_safety_gate": {
+      "component": "Llama Guard Safety Gate",
+      "responsibilities": ["Verificação de Políticas Meta", "Bloqueio imediato fora de conformidade"]
+    },
+    "L3_L5_commercial": {
+      "component": "Experiência Comercial & Auditoria",
+      "responsibilities": ["Geração de Propostas", "QR Code Audit Rastreável"]
+    }
+  },
+  "nine_pillars": [
+    "01 DevOps",
+    "02 Microsserviços",
+    "03 Serverless",
+    "04 Orquestração de Containers",
+    "05 Arquitetura Limpa",
+    "06 Domain-Driven Design",
+    "07 Observability",
+    "08 DevSecOps / Security-by-Design",
+    "09 Event-Driven Architecture"
+  ],
+  "security_profile": {
+    "mTLS": true,
+    "TLS_version": "1.3",
+    "encryption": "AES-256",
+    "prompt_sanitization": true,
+    "fail_closed": true
+  },
+  "hackathon": {
+    "event": "Meta Global AI Developer Hackathon 2026",
+    "platform": "Cerebral Valley",
+    "repo": "https://github.com/producerdcs-cpu/impact-ai-engineer-school",
+    "demo": "https://dcsproducer-hub-pqjq.vercel.app",
+    "track": "MetaRAG · 13 eixos"
+  },
+  "session": "aegis-20261025-184717"
+}
