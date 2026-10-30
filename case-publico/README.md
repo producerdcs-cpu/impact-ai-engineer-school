@@ -6,8 +6,9 @@
 |---|---|
 | **Autor** | Dinoel Soares · Dcs Producer® |
 | **Perfil** | PE-DINOEL-SOARES-001 · Coordenador da Academia |
-| **Contexto** | MetaRAG 13/13 · Impact AI Engineer School |
+| **Contexto** | MetaRAG 13/13 interno · Impact AI Engineer School |
 | **Portfólio** | [Core Hub AEGIS](https://core-hub-aegis.vercel.app/) |
+| **Prova viva** | [Veredito do Gate · 2026-10-30](prova-viva/VEREDITO.md) |
 
 ## Documentos
 
@@ -15,6 +16,14 @@
 - [Diagrama Mermaid](docs/diagram.mmd)
 - [Policy snippet (pseudocódigo)](docs/policy-snippet.md)
 - [Post LinkedIn](POST-LINKEDIN.md)
+- [Veredito — o que é prova e o que segue interno](prova-viva/VEREDITO.md)
+- [Checklist pré-envio](prova-viva/PRE-SEND.md)
+
+## Prova viva
+
+Corrida de 2026-10-30 com o Gate AEGIS e a skill dcs-pre-send-validator.
+
+O ADR, o diagrama e o policy snippet provam a decisão de arquitetura. O dossiê 13/13 não foi promovido: `evidencias/modXX/` não está neste tree. O perfil calibrado é o `profile-executive.json` v0.6.0.
 
 ## Identidade visual (Crystalline Logic)
 

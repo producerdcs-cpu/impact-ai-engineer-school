@@ -1,67 +1,104 @@
 {
   "profile_id": "PE-DINOEL-SOARES-001",
   "brand": "OPENTOWORK OS © Dcs Producer® Executive Core",
-  "version": "0.5.1",
-  "last_updated": "2026-10-25T18:51:00Z",
+  "version": "0.6.0",
+  "last_updated": "2026-10-30T23:30:00Z",
   "document_status": "vivo",
+  "gate": {
+    "name": "Gate AEGIS + dcs-pre-send-validator",
+    "run": "2026-10-30",
+    "verdict": "liberado-com-ressalva",
+    "artifact": "case-publico/prova-viva/VEREDITO.md",
+    "rule": "status só vale com artefato presente no tree público"
+  },
   "identity": {
     "full_name": "Dinoel Soares",
     "brand_name": "Dcs Producer®",
     "role_current": "Coordenador da Academia",
-    "role_target": "Arquiteto de Sistemas AI-first / Coordenador da Academia",
+    "role_target": "Arquiteto de Sistemas AI-first / Coordenador da Academia (Brasil remoto)",
     "school": "IMPACT / AI Engineer School · School The Best Engineer Software",
     "location": "Brasil · Remoto"
   },
-  "ceo_core": {
-    "current_level": "Advanced (certificado interno)",
-    "overall_performance": 100,
-    "evidence_quality": 100,
-    "confidence": 92,
-    "trajectory": "POSITIVE",
-    "domains": [
-      "Software Architecture AI-first",
-      "MetaRAG & Agentic Systems",
-      "Cibersegurança / AEGIS-DUC",
-      "Governança Pedagógica",
-      "Safety & OT/ICS / IoT",
-      "Executive Decision"
-    ]
-  },
-  "nexus_radar": {
-    "match_score": 70,
-    "top_match_role": "Gerente de Projetos de Engenharia",
-    "company_target": "Órbita Labs",
-    "active_goals": 4,
-    "nr_alerts": 4,
-    "next_gap_fix": "Broker TLS local publicando telemetria NR-15 e dashboard de alerta",
-    "security_profile": {
-      "mTLS": true,
-      "TLS_version": "1.3",
-      "encryption": "AES-256",
-      "prompt_sanitization": true
+  "competencies_public_gate": [
+    {
+      "code": "ARCH-AI-001",
+      "name": "Arquitetura de Sistemas",
+      "level_internal": "Avançado",
+      "level_public": "Avançado no recorte da decisão",
+      "public_artifacts": ["case-publico/docs/ADR-001-fail-closed.md", "case-publico/docs/diagram.mmd"]
+    },
+    {
+      "code": "GENAI-METARAG-001",
+      "name": "IA Generativa & MetaRAG",
+      "level_internal": "Avançado",
+      "level_public": "Avançado no recorte RAG fail-closed",
+      "public_artifacts": ["case-publico/docs/ADR-001-fail-closed.md", "case-publico/docs/policy-snippet.md"],
+      "not_public": ["evidencias/mod01/", "evidencias/mod13/"]
+    },
+    {
+      "code": "SEC-AEGIS-001",
+      "name": "Cibersegurança",
+      "level_internal": "Intermediário-Avançado",
+      "level_public": "Intermediário",
+      "public_artifacts": ["case-publico/docs/policy-snippet.md"],
+      "note": "pseudocódigo; motor fora do tree"
+    },
+    {
+      "code": "ENG-SW-001",
+      "name": "Engenharia de Software",
+      "level_internal": "Avançado",
+      "level_public": "Intermediário",
+      "public_artifacts": ["case-publico/README.md"]
+    },
+    {
+      "code": "PED-GOV-001",
+      "name": "Governança Pedagógica & Design",
+      "level_internal": "Avançado",
+      "level_public": "A declarar",
+      "public_artifacts": []
+    },
+    {
+      "code": "IOT-SAFE-001",
+      "name": "IoT & Automação Industrial + Segurança do Trabalho",
+      "level_internal": "Intermediário",
+      "level_public": "A declarar",
+      "public_artifacts": []
     }
-  },
+  ],
   "certification_dossier": {
     "title": "Engenharia de IA GenAI — Sistemas Autônomos Controlados",
     "emission_date": "2026-09-26",
     "hub_url": "https://dcsproducer-hub-pqjq.vercel.app",
     "track": "MetaRAG · 13 eixos (12 módulos + certificação)",
-    "rubric_score": 100,
-    "readiness_threshold": 80,
-    "modules": [
-      {"id": 1, "name": "Fundamentos de IA e LLMs", "status": "CONCLUIDO", "evidences": "evidencias/mod01/"},
-      {"id": 2, "name": "APIs de IA Generativa e Prompt Engineering", "status": "CONCLUIDO", "evidences": "evidencias/mod02/"},
-      {"id": 3, "name": "MCP – Model Context Protocol", "status": "CONCLUIDO", "evidences": "artifacts/mcp-server/, evidencias/mod03/"},
-      {"id": 4, "name": "Criação de Agentes Autônomos", "status": "CONCLUIDO", "evidences": "evidencias/mod04/"},
-      {"id": 5, "name": "Ferramentas de IA para UX & UI", "status": "CONCLUIDO", "evidences": "evidencias/mod05/"},
-      {"id": 6, "name": "Ferramentas de IA para DevOps", "status": "CONCLUIDO", "evidences": "evidencias/mod06/"},
-      {"id": 7, "name": "Ferramentas de IA para Gestão de Projetos", "status": "CONCLUIDO", "evidences": "evidencias/mod07/"},
-      {"id": 8, "name": "Arquitetura de Sistemas com IA", "status": "CONCLUIDO", "evidences": "evidencias/mod08/"},
-      {"id": 9, "name": "Processamento de Dados e Fine Tuning", "status": "CONCLUIDO", "evidences": "evidencias/mod09/"},
-      {"id": 10, "name": "Segurança e Governança em IA", "status": "CONCLUIDO", "evidences": "evidencias/mod10/"},
-      {"id": 11, "name": "Projeto Integrador – Capstone", "status": "CONCLUIDO", "evidences": "artifacts/dcsproducer-metarag-hub/, evidencias/mod11/"},
-      {"id": 12, "name": "Carreira e entrevistas para engenheiros de IA", "status": "CONCLUIDO", "evidences": "evidencias/mod12/"},
-      {"id": 13, "name": "Certificação Engenharia de IA GenAI", "status": "CONCLUIDO", "evidences": "evidencias/mod13/"}
+    "rubric_score_internal": 100,
+    "rubric_public": null,
+    "visibility": "interno — evidencias/mod01 a mod13 ausentes neste tree",
+    "readiness_threshold": 80
+  },
+  "career_gap_analysis": {
+    "target_role": "Arquiteto de Sistemas AI-first / Coordenador da Academia",
+    "market_sample_date": "2026-09",
+    "adherence_range": "70–85%",
+    "kr1_30d": {
+      "text": "Publicar 1 case AEGIS/Nexus (ADR + diagrama + trecho RAG fail-closed)",
+      "status": "cumprido",
+      "artifact": "case-publico/docs/"
+    },
+    "still_open": [
+      "Evidência pública de produção com métrica",
+      "Cloud depth (Azure/AWS/GCP)",
+      "LLMOps / AgentOps / Observabilidade com artefato, não só menção",
+      "Inglês avançado",
+      "Certificação cloud ou projeto equivalente documentado"
     ]
+  },
+  "declared_not_evidenced": [
+    "mTLS", "TLS 1.3", "AES-256", "rubrica 100", "secret scanning de todos os privados"
+  ],
+  "nexus_radar": {
+    "match_score": 70,
+    "top_match_role": "Gerente de Projetos de Engenharia",
+    "company_target": "Órbita Labs",
+    "note": "herdado da v0.5.1 de 2026-10-25; esta corrida não reexecutou o match"
   }
 }
